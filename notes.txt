@@ -1,2 +1,6 @@
 Starting with :
     - Docker Volumes, especially for data persistence for Using DBs in any application
+    """
+    docker build -t feedback .
+    docker run -p 3000:80 -d --name feedback --rm -v feedback:/app/feedback feedback
+    """
