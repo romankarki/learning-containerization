@@ -25,6 +25,7 @@ app.get('/exists', (req, res) => {
 app.post('/create', async (req, res) => {
   const title = req.body.title;
   const content = req.body.text;
+  console.log(title, content);
 
   const adjTitle = title.toLowerCase();
 
