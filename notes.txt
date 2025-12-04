@@ -10,4 +10,4 @@ Bind Mounts:
     - solves the issue of stale image and container during development
     - volumes are similar to bind mounts but docker is not responsible for managing bind mounts as they do for volumes 
     -  docker run -p 3000:80 -d --rm --name feedback-name -v "C:\Users\ASUS\Desktop\learning-containerization\docker-volumes\data-volumes-01-starting-setup:/app" -v /app/node_modules  feedback
-    
+    - this solves the issue of dev mode and for node js server needs restarting so use nodemon 
